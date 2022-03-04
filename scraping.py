@@ -69,4 +69,4 @@ df=pd.DataFrame()
 for j in data:
     df_uno=pd.DataFrame(j)
     df=pd.concat([df,df_uno])
-#print(df)
+print(df)
